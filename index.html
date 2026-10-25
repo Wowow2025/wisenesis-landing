@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr. Yuanlin Piao | Chinese Medicine & Music</title>
-<meta name="description" content="Chinese medicine education and music by Dr. Yuanlin Piao (朴元林). Explore videos and creative work on YouTube.">
+<title>Dr. Yuanlin Piao | Chinese Medicine — Clinical Practice & Teaching</title>
+<meta name="description" content="Dr. Yuanlin Piao (朴元林), Chinese medicine clinician and educator. Explore Chinese and integrative medicine, classical texts, clinical reasoning, and teaching videos.">
 
 <style>
 :root{
@@ -86,9 +86,7 @@ h2{
   border:1px solid var(--border);
   color:var(--text);
 }
-.secondary:hover{
-  background:var(--card);
-}
+.secondary:hover{background:var(--card)}
 .heroCard{
   background:var(--card);
   padding:24px;
@@ -117,13 +115,16 @@ h2{
   color:var(--muted);
   margin-top:10px;
 }
-.featured{
+.interests{
+  max-width:760px;
   margin-top:48px;
-  padding:28px;
+  padding:24px;
   background:var(--card);
   border:1px solid var(--border);
   border-radius:20px;
 }
+.interests h2{font-size:20px}
+.interests .sub{font-size:16px}
 .video{
   margin-top:20px;
   aspect-ratio:16/9;
@@ -149,14 +150,14 @@ footer p{margin:8px 0}
   .container{padding-top:30px}
   .heroGrid{grid-template-columns:1fr;gap:30px}
   .heroCard{max-width:420px;width:100%}
-  .featured{padding:20px;margin-top:32px}
+  .interests{padding:20px;margin-top:32px}
 }
 </style>
 </head>
 
 <body>
 <main class="container">
-  <div class="brand">WISENESIS</div>
+  <div class="brand">WISENESIS · 中醫臨床與教學</div>
 
   <div class="heroGrid">
     <section aria-labelledby="main-title">
@@ -164,36 +165,39 @@ footer p{margin:8px 0}
       <p class="chineseName" lang="zh-Hant">朴元林博士</p>
 
       <p class="sub">
-        Chinese Medicine · Integrative Medicine · Music
+        Chinese Medicine · Clinical Practice · Education &amp; Teaching
       </p>
       <p class="sub" lang="zh-Hant">
-        中醫學 · 中西醫結合 · 音樂創作
+        中醫臨床 · 教育教學
       </p>
 
       <p class="sub">
-        Sharing perspectives on Chinese medicine and health,
-        alongside musical expression, informed by decades of
-        clinical and teaching experience.
+        Drawing on decades of clinical and teaching experience in
+        Chinese and integrative medicine to share Chinese medicine
+        theory, classical texts, clinical pattern differentiation,
+        and treatment approaches.
       </p>
       <p class="sub" lang="zh-Hant">
-        結合多年臨床與教學經驗，分享中醫與健康知識，
-        並以音樂表達生活感悟。
+        結合多年中西醫結合臨床與教學經驗，分享中醫理論、
+        經典解讀、臨床辨證與治療思路。
       </p>
 
       <div class="channel">
         <h2>Authentic Traditional Chinese Medicine</h2>
         <p class="sub">
-          Discover educational videos and music on my YouTube channel.
+          Visit my YouTube channel for Chinese medicine lectures,
+          clinical perspectives, and teaching videos.
         </p>
         <p class="sub" lang="zh-Hant">
-          歡迎前往我的 YouTube 頻道，觀看影片、聆聽音樂及訂閱更新。
+          歡迎前往我的 YouTube 頻道，觀看中醫教學影片、
+          臨床思路分享，並訂閱後續更新。
         </p>
 
         <a class="btn"
            href="https://www.youtube.com/@AuthenticTraditionalChineseMed"
            target="_blank"
            rel="noopener noreferrer">
-          Watch on YouTube · 觀看頻道 ↗
+          Watch on YouTube · 觀看教學頻道 ↗
         </a>
       </div>
     </section>
@@ -220,16 +224,22 @@ footer p{margin:8px 0}
     </aside>
   </div>
 
-  <section class="featured" aria-labelledby="music-title">
-    <h2 id="music-title">Featured Music · 精選音樂</h2>
+  <section class="interests" aria-labelledby="interests-title">
+    <h2 id="interests-title">
+      Beyond the Classroom · 課餘雅趣
+    </h2>
+    <p class="sub">
+      Outside teaching and clinical work, I enjoy creating music
+      and sharing reflections on life.
+    </p>
     <p class="sub" lang="zh-Hant">
-      聆聽我的音樂作品，更多內容請瀏覽 YouTube 頻道。
+      教學與臨床之外，分享音樂創作與生活感悟。
     </p>
 
     <div class="video">
       <iframe
         src="https://www.youtube.com/embed/siRlkiSdRZA"
-        title="Featured music by Yuanlin Piao"
+        title="Music from Yuanlin Piao — Beyond the Classroom"
         loading="lazy"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
@@ -246,11 +256,11 @@ footer p{margin:8px 0}
 
   <footer>
     <p>
-      Health-related content is provided for education and does not
+      Content is provided for educational purposes and does not
       replace individual medical assessment, diagnosis, or treatment.
     </p>
     <p lang="zh-Hant">
-      健康相關內容僅供教育參考，不能替代個別醫療評估、診斷或治療。
+      內容僅供教育教學參考，不能替代個別醫療評估、診斷或治療。
     </p>
     <p>© Wisenesis · Yuanlin Piao</p>
   </footer>
